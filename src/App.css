@@ -1,13 +1,45 @@
 body{
    background-color:bisque;
-
 }
 
+.todo {
+ /* border: 1px solid red; */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.todo__add{
+   padding: 3rem 0;
+   width: 100%;
+   background-color: burlywood;
+}
+
+.todo__list{
+   /* border: 1px solid green; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.todo__item{
+   display: flex;
+   align-items: center;
+}
+.todo__item button {
+   margin-left: 1rem;
+   padding: 0.5rem;
+   color: #fff;
+   background-color: coral;
+   border-radius: 25%;
+   border: none;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -40,4 +72,4 @@ body{
   to {
     transform: rotate(360deg);
   }
-}
+}  */
