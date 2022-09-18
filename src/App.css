@@ -3,7 +3,6 @@ body{
 }
 
 .todo {
- /* border: 1px solid red; */
  display: flex;
  flex-direction: column;
  align-items: center;
@@ -16,7 +15,6 @@ body{
 }
 
 .todo__list{
-   /* border: 1px solid green; */
    display: flex;
    flex-direction: column;
    justify-content: center;
