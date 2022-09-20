@@ -8,6 +8,7 @@ export function Todo() {
 
 
 
+
    const addTask = () => {
       setTask([
          ...task,
@@ -17,6 +18,11 @@ export function Todo() {
             complete: false,
          }
       ])
+      local();
+   }
+
+   const local = () => {
+      localStorage.setItem('tasks', JSON.stringify(task))
    }
 
    const delleteTask = (id) => {
